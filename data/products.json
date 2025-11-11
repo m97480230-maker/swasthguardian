@@ -1,1 +1,17 @@
 
+{
+  "items": [
+    {
+      "brand": "HealthOmega",
+      "ingredient": "Omega-3",
+      "price": 499,
+      "dosage_mg": 1000,
+      "rda_mg": 1000,
+      "risk_score": 15,
+      "hidden_underdose_prob": 10,
+      "fssai_valid": true,
+      "description": "High-quality Omega-3",
+      "safe_alternative": "NutraOmega"
+    }
+  ]
+}
