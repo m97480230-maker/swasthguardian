@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ranked Supplements</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="p-6">
+  <h1 class="text-3xl font-bold mb-4">Ranked Supplements</h1>
+  <input id="search" type="text" placeholder="Search supplements" class="border p-2 mb-4"/>
+  <table class="table-auto border-collapse border border-gray-300">
+    <thead>
+      <tr>
+        <th class="border px-2 py-1">Brand</th>
+        <th class="border px-2 py-1">Ingredient</th>
+        <th class="border px-2 py-1">Price</th>
+        <th class="border px-2 py-1">Dosage</th>
+        <th class="border px-2 py-1">RDA</th>
+        <th class="border px-2 py-1">Risk</th>
+        <th class="border px-2 py-1">Hidden Underdose</th>
+        <th class="border px-2 py-1">FSSAI Valid</th>
+        <th class="border px-2 py-1">Safe Alternative</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <!-- JS will populate rows here -->
+    </tbody>
+  </table>
+  <script src="js/main.js"></script>
+</body>
+</html>
